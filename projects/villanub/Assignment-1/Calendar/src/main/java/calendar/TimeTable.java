@@ -103,7 +103,7 @@ public class TimeTable {
 	        //If the first occurrence is after the last day, then it doesn't matter
 	        //when it recurs because those dates must be after the last day too
 	        if (!occurrenceDay.before(lastDay)) {
-	            return result;
+	            return result
 	        }
 	        
 	            
