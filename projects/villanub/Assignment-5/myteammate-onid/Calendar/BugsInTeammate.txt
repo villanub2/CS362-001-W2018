@@ -1,0 +1,25 @@
+Unique ID: 
+	Bug 1
+Bug Description:
+	
+How to Cause the Bug:
+	
+Software Version:
+	
+Severity of the Bug:
+	
+Priority of the Bug:
+	
+
+Unique ID: 
+	Bug 2
+Bug Description:
+	
+How to Cause the Bug:
+	
+Software Version:
+	
+Severity of the Bug:
+	
+Priority of the Bug:
+	
