@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="calendar.CalDayRandomTest" time="0.034" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="calendar.CalDayRandomTest" time="0.032" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.151-5.b12.el7_4.x86_64/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.151-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/nfs/stak/users/villanub/CS_362/CS362-001-W2018/projects/villanub/assignment-4/Calendar"/>
+    <property name="maven.multiModuleProjectDirectory" value="/nfs/stak/users/villanub/CS_362/CS362-001-W2018/projects/villanub/Assignment-5/myteammate-onid/Calendar"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/nfs/stak/users/villanub/CS_362/CS362-001-W2018/projects/villanub/assignment-4/Calendar"/>
+    <property name="user.dir" value="/nfs/stak/users/villanub/CS_362/CS362-001-W2018/projects/villanub/Assignment-5/myteammate-onid/Calendar"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.151-5.b12.el7_4.x86_64/jre/lib/endorsed"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="calendar.CalDayRandomTest" name="testAddAppt" time="0.034">
+  <testcase classname="calendar.CalDayRandomTest" name="testAddAppt" time="0.032">
     <error message="16" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 16
 	at calendar.CalendarUtil.NumDaysInMonth(CalendarUtil.java:30)
 	at calendar.Appt.isValid(Appt.java:113)
