@@ -1,0 +1,33 @@
+Unique ID: 
+	Bug 1
+Bug Description:
+	In this program, there is a bug where the am and pm are reversed for all
+	times. This is caused by a problem in the Appt.java file.
+How to Cause the Bug:
+	This bug occurs when there is any time placed into the program as input.
+Software Version:
+	Teammate Calendar Code Version 1.0
+Severity of the Bug:
+	This bug is not very severe because it causes all of the times to be 
+	incorrect, but doesn't interfere with the rest of the code.
+Priority of the Bug:
+	This bug has a high priority because it would cause all the appointment 
+	times to be incorrect. 
+	
+Unique ID: 
+	Bug 2
+Bug Description:
+	In this program, there is a bug where all of the days of the appointments 
+	are shifted over to the next day. This is caused by a problem in the 
+	TimeTable.java file.
+How to Cause the Bug:
+	This bug is caused every time you try and get the range of appointments 
+	between two dates that doesn't throw an exception.
+Software Version:
+	Teammate Calendar Code Version 1.0
+Severity of the Bug:
+	This bug is very severe because it adds appointments to the wrong day 
+	and this could interfere with other functions of the program.
+Priority of the Bug:
+	This is a high priority bug because it would interfere with both the 
+	program and the customer.
