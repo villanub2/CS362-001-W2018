@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: calendar.CalDayRandomTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.092 sec <<< FAILURE!
-testAddAppt(calendar.CalDayRandomTest)  Time elapsed: 0.031 sec  <<< ERROR!
-java.lang.ArrayIndexOutOfBoundsException: 19
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.106 sec <<< FAILURE!
+testAddAppt(calendar.CalDayRandomTest)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: 16
 	at calendar.CalendarUtil.NumDaysInMonth(CalendarUtil.java:30)
 	at calendar.Appt.isValid(Appt.java:113)
 	at calendar.Appt.<init>(Appt.java:104)
