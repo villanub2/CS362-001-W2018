@@ -2,7 +2,9 @@ package calendar;
 
 
 import org.junit.Test;
+
 import java.util.*;
+
 
 
 import static org.junit.Assert.*;
@@ -18,6 +20,7 @@ public class CalDayRandomTest {
     /**
      * Generate Random Tests that tests CalDay Class.
      */
+
 	@Test
 	public void testAddAppt()  throws Throwable  {
 		for(int x = 0; x < 10000; x++){
@@ -26,11 +29,13 @@ public class CalDayRandomTest {
 			CalDay calday1 = new CalDay(cal);
 			LinkedList expected = new LinkedList<Appt>();
 			Appt Appt1 = new Appt(2, 2, 2, 2, 2002, "title", "description");
+
 			//Set up random numbers
 			long randomseed =System.currentTimeMillis(); 
 			Random random = new Random(randomseed);
 			
 			//add random Appts
+
 			int size = (ValuesGenerator.getRandomIntBetween(random, 0, 30));
 			int[] array = new int[size];
 			for(int y = 0; y < size; y++){
@@ -58,10 +63,12 @@ public class CalDayRandomTest {
 				
 				//use addAppt
 				calday1.addAppt(Appt1);
+
 				
 			}
 			
 			//see if setRecurDays works
+
 			for(int z = 0; z < size; z++){
 				
 				assertEquals(Appt1.getStartHour(), ((calday1.getAppts()).get(z)).getStartHour());
@@ -76,10 +83,13 @@ public class CalDayRandomTest {
 			//	assertEquals((expected.get(z)).getStartDay(), ((calday1.getAppts()).get(z)).getStartDay());
 			//	assertEquals((expected.get(z)).getStartMonth(), ((calday1.getAppts()).get(z)).getStartMonth());
 			//	assertEquals((expected.get(z)).getStartYear(), ((calday1.getAppts()).get(z)).getStartYear());
+
 			}
 			
 		}
 	}
+
+
 
 	
 }

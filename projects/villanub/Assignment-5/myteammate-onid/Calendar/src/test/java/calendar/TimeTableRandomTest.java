@@ -23,6 +23,7 @@ public class TimeTableRandomTest {
     /**
      * Generate Random Tests that tests TimeTable Class.
      */
+
 	@Test
 	public void testDeleteAppt()  throws Throwable  {
 		for(int x = 0; x < 10000; x++){
@@ -31,6 +32,7 @@ public class TimeTableRandomTest {
 			CalDay calday1 = new CalDay(cal);
 			CalDay calday2 = new CalDay(cal);
 			Appt Appt1 = new Appt(2, 2, 2, 2, 2002, "title", "description");
+
 			TimeTable table = new TimeTable();
 			
 			//Set up random numbers
@@ -38,6 +40,7 @@ public class TimeTableRandomTest {
 			Random random = new Random(randomseed);
 			
 			//add random Appts
+
 			int size = (ValuesGenerator.getRandomIntBetween(random, 0, 10));
 			int[] array = new int[size];
 			for(int y = 0; y < size; y++){
@@ -47,10 +50,13 @@ public class TimeTableRandomTest {
 				int startDay = (ValuesGenerator.getRandomIntBetween(random, 1, 65));
 				int startMonth = (ValuesGenerator.getRandomIntBetween(random, 1, 24));
 				int startYear = (ValuesGenerator.RandInt(random));
+
+			
 				String title = "Title";
 				String description = "Description";
 				Appt1 = new Appt(startHour, startMinute, startDay, startMonth, startYear, title, description);
 				//put Appts into calday1
+
 				calday1.addAppt(Appt1);
 				calday2.addAppt(Appt1);
 			}
@@ -91,10 +97,12 @@ public class TimeTableRandomTest {
 			};
 		};
 	};
+
 	
 	
 	@Test
 	public void testGetApptRange()  throws Throwable  {
+
 		for(int x = 0; x < 10000; x++){
 			//create calendar
 			GregorianCalendar cal = new GregorianCalendar();
@@ -103,6 +111,7 @@ public class TimeTableRandomTest {
 			CalDay calday1 = new CalDay(cal);
 			LinkedList<CalDay> calDays = new LinkedList<CalDay>();
 			Appt Appt1 = new Appt(2, 2, 2, 2, 2002, "title", "description");
+
 			TimeTable table = new TimeTable();
 			
 			//Set up random numbers
@@ -110,6 +119,7 @@ public class TimeTableRandomTest {
 			Random random = new Random(randomseed);
 			
 			//add random Appts
+
 			int size = (ValuesGenerator.getRandomIntBetween(random, 0, 10));
 			int[] array = new int[size];
 			for(int y = 0; y < size; y++){
