@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: calendar.ApptRandomTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 29.993 sec <<< FAILURE!
+testIsValid(calendar.ApptRandomTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException
+
